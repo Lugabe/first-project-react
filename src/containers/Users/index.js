@@ -8,9 +8,9 @@ import ContainerItens from "../../components/ContainerItens/index.js";
 import {
   Container,
   Image,
-  Button,
-  User,
+  User
 } from "./style.js";
+import Button from "../../components/Button/index.js";
 import Arrow from "../../assets/arrow.svg";
 import Avatar from "../../assets/avatar.svg";
 import Trash from "../../assets/trash.svg";
@@ -76,7 +76,7 @@ const Users = () => {
           ))}
         </ul>
 
-        <Button onClick={goBackPage}>
+        <Button isBack={true} onClick={goBackPage}>
         <img alt="Seta" src={Arrow} />
         Voltar</Button>
 

@@ -8,9 +8,9 @@ import {
   Container,
   Image,
   InputLabel,
-  Input,
-  Button
+  Input
 } from "./style.js";
+import Button from "../../components/Button/index.js";
 import People from "../../assets/people.svg";
 import Arrow from "../../assets/arrow.svg";
 //import Avatar from "./assets/avatar.svg";
